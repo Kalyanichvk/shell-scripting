@@ -1,0 +1,33 @@
+Class 1 &
+2 &
+3:
+1. Baselab creation in AWS.
+2. Install packages needed for the course
+unzip, jq, direnv, awscli, azcli, net-tools
+3. Declaring variables and accessing them.
+4. Declaring Env variables and updating in .bashrc.
+5. Resolving .bashrc issues by using folder level env variables using direnv.
+6. Accessing pokemon API and parsing JSON output using jq.
+7. Passing positional arguments to Shell Scripts. Eg: hello.sh $1 $2
+
+Class 4:
+Shell Data Operators
+Arth Operators:
+free -m | grep -i mem
+echo "Welcome-To-DevSecOps-Class" | cut -d "-" -f 4,3,2,1
+echo "Welcome-To-DevSecOps-Class" | awk -F "-" '{print $4,$3,$2,$1}'
+free -m | grep -i mem | awk -F " " '{print $1,$2,$3,$4}'
+
+Float Point calculation with bc command.
+
+Class 5:
+Relational using Memory Utilization with SLACK Webshook, EC2 Metadata &
+Crontab.
+https://hooks.slack.com/services/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
+
+Boolean operators
+/dev/null
+$? $# $@ $* $#
+
+Class 6:
+Output Redirection
